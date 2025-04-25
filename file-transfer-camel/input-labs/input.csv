@@ -1,0 +1,3 @@
+laboratorio_id,paciente_id,tipo_examen,resultado,fecha_examen
+1,101,"Glucosa","85 mg/dL","2025-04-15"
+2,102,"Colesterol","190 mg/dL","2025-04-15"

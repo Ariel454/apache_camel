@@ -1,0 +1,2 @@
+INSERT INTO resultados_examenes (laboratorio_id, paciente_id, tipo_examen, resultado, fecha_examen) VALUES (1, 101, '"Glucosa"', '"85 mg/dL"', '"2025-04-15"') ON CONFLICT (paciente_id, tipo_examen, fecha_examen) DO UPDATE SET resultado = EXCLUDED.resultado;
+INSERT INTO resultados_examenes (laboratorio_id, paciente_id, tipo_examen, resultado, fecha_examen) VALUES (2, 102, '"Colesterol"', '"190 mg/dL"', '"2025-04-15"') ON CONFLICT (paciente_id, tipo_examen, fecha_examen) DO UPDATE SET resultado = EXCLUDED.resultado;
